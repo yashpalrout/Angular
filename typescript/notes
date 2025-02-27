@@ -1,0 +1,21 @@
+spa: Single page application is a web app that load a single page and update with new content instead of reloading the entire page.
+SPA does not make requests to server for every URL requests.
+
+Traditional multipage applications(MPAs):
+    User action: the user click a link or submit a form.
+    HTTP request: the browser sends an HTTP request to the server.
+    server processing: The server processes the requests, perform any necessary operation(e.g, querying a database), and generate ab HTML response.
+    HTTP response: The server sends the HTML response back to the browser.
+    Page reload: The browser reloads the entire page with the new content.
+
+In Single page Applications(SPA):
+    The browser loads a single HTML page once and dynamically udpate the content as the user interacts with the application. 
+    Initial loading: the browser loads a single page along with the necessary Javascript and CSS files.
+    User action: The user interacts with the application (e.g; clicking a link, submitting a form).
+    AJAX request: The application uses Javascript (often AHAX or Fetch API) to send an asysnchronous request to server.
+    Server Processing
+    DOM update
+
+what is ajax?
+    AJAX stands for Asysnchronous Javascript and XML, is a set of web development techniques that allows web application to send and recieve data from a server asynchronously, without requiring a full page reload. AJAX enables more dynamic and faster user interactions by allowing parts of a webpage to be updated independently of the whole page.
+    AJAX application often use JSON for data exchange.
