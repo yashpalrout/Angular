@@ -19,3 +19,15 @@ In Single page Applications(SPA):
 what is ajax?
     AJAX stands for Asysnchronous Javascript and XML, is a set of web development techniques that allows web application to send and recieve data from a server asynchronously, without requiring a full page reload. AJAX enables more dynamic and faster user interactions by allowing parts of a webpage to be updated independently of the whole page.
     AJAX application often use JSON for data exchange.
+
+
+Datatypes in Typescript:
+    string
+    number
+    boolean 
+    array 
+    enum
+    tuple
+    any
+    void
+    never
